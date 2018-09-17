@@ -19,7 +19,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-default">
-            <a class="navbar-brand" href="index.html" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
+            <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
              </button>
@@ -32,19 +32,19 @@
                         <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
                     </li>
                     <li class="nav-item dropdown border1 border1">
-                        <a class="nav-link dropdown-toggle a1" href="{{ route('es-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTOS</a>
+                        <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTOS</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
                           <li class="dropdown-submenu dropright">
-                            <a class="test a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                            <a class="test a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
                             <ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
-                                <li><a class="a1" tabindex="-1" href="locomotoras.html" style="padding-left:6px;">BATTERY</a></li>
-                                <li><a class="a1" tabindex="-1" href="locomotoras.html" style="padding-left:6px;">TROLLEY</a></li>
+                                <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">BATTERY</a></li>
+                                <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
                             </ul>
                           </li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('es-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('es-palas') }}" style="padding-left:6px;">PALLAS</a></li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('es-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('es-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
+                          <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
+                          <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">PALLAS</a></li>
+                          <li><a class="a1" tabindex="-1" href="{{ route('en-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
+                          <li><a class="a1" tabindex="-1" href="{{ route('en-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
                         </ul>
                     </li>
                     <li class="nav-item border1 border1">
@@ -77,9 +77,9 @@
                                         <h1 class="title-widget">Home</h1>
                                         
                                         <ul>
-                                        	<li><a  href="index.html"><i class="fa fa-angle-double-right"></i> Home</a></li>
-                                            <li><a  href="index.html#noticias"><i class="fa fa-angle-double-right"></i> News</a></li>
-                                            <li><a  href="index.html#clientes"><i class="fa fa-angle-double-right"></i> Clients</a></li>
+                                        	<li><a  href="{{ route('en-inicio') }}"><i class="fa fa-angle-double-right"></i> Home</a></li>
+                                            <li><a  href="{{ route('en-inicio') }}"><i class="fa fa-angle-double-right"></i> News</a></li>
+                                            <li><a  href="{{ route('en-inicio') }}"><i class="fa fa-angle-double-right"></i> Clients</a></li>
                                             
                                         </ul>
                             
@@ -101,10 +101,10 @@
                                         <h1 class="title-widget">About us</h1>
                                         
                                         <ul>
-         									<li><a  href="nosotros.html#quienes"><i class="fa fa-angle-double-right"></i> About us?</a></li>
-                                            <li><a  href="nosotros.html#historia"><i class="fa fa-angle-double-right"></i>  History</a></li>
-                                            <li><a  href="nosotros.html#mision"><i class="fa fa-angle-double-right"></i>  Mission and vision</a></li>
-                                            <li><a  href="nosotros.html#politica"><i class="fa fa-angle-double-right"></i>  Quality politics</a></li>
+         									<li><a  href="{{ route('en-nosotros') }}"><i class="fa fa-angle-double-right"></i> About us?</a></li>
+                                            <li><a  href="{{ route('en-nosotros') }}"><i class="fa fa-angle-double-right"></i>  History</a></li>
+                                            <li><a  href="{{ route('en-nosotros') }}"><i class="fa fa-angle-double-right"></i>  Mission and vision</a></li>
+                                            <li><a  href="{{ route('en-nosotros') }}"><i class="fa fa-angle-double-right"></i>  Quality politics</a></li>
                                         </ul>
                             
         							</li>
@@ -125,11 +125,11 @@
                                         <h1 class="title-widget">Products</h1>
                                         
                                         <ul>
-                                        <li><a href="locomotoras.html"><i class="fa fa-angle-double-right"></i> Locomotives</a></li>
-                         				<li><a href="vagones.html"><i class="fa fa-angle-double-right"></i> Wagons</a></li>
-                        				<li><a href="palas.html"><i class="fa fa-angle-double-right"></i> Pallas Eimco</a></li>
-                        				<li><a href="metalmecanica.html"><i class="fa fa-angle-double-right"></i> Metalmecánica</a></li>
-                        				<li><a href="servicios.html"><i class="fa fa-angle-double-right"></i> Services</a></li>
+                                        <li><a href="{{ route('en-locomotoras') }}"><i class="fa fa-angle-double-right"></i> Locomotives</a></li>
+                         				<li><a href="{{ route('en-vagones') }}"><i class="fa fa-angle-double-right"></i> Wagons</a></li>
+                        				<li><a href="{{ route('en-palas') }}"><i class="fa fa-angle-double-right"></i> Pallas Eimco</a></li>
+                        				<li><a href="{{ route('en-metalmecanica') }}"><i class="fa fa-angle-double-right"></i> Metalmecánica</a></li>
+                        				<li><a href="{{ route('en-servicios') }}"><i class="fa fa-angle-double-right"></i> Services</a></li>
                                         </ul>
                             
         							</li>

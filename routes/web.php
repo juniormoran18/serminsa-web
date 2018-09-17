@@ -21,6 +21,7 @@ Route::get('/', function () {
     return view('es.inicio');
 })->name('es-inicio');*/
 
+/*Nosotros en español e ingles*/
 Route::get('nosotros', function () {
     return view('es.nosotros');
 })->name('es-nosotros');
@@ -29,37 +30,72 @@ Route::get('en-nosotros', function () {
     return view('en.nosotros');
 })->name('en-nosotros');
 
+
+/*Productos en español e ingles*/
 Route::get('productos', function () {
     return view('es.productos');
 })->name('es-productos');
 
+Route::get('en-productos', function () {
+    return view('en.productos');
+})->name('en-productos');
+
+/*Contacto en español e ingles*/
 Route::get('contacto', function () {
     return view('es.contacto');
 })->name('es-contacto');
 
-Route::get('wr8', function () {
-    return view('es.loco.wr8');
-})->name('es-wr8');
+Route::get('en-contacto', function () {
+    return view('en.contacto');
+})->name('en-contacto');
+
+/*Locomotora en español e ingles*/
+
 
 Route::get('locomotoras', function () {
     return view('es.locomotoras');
 })->name('es-locomotoras');
 
+Route::get('en-locomotoras', function () {
+    return view('en.locomotoras');
+})->name('en-locomotoras');
+
+/*Vagones en español e ingles*/
 Route::get('vagones', function () {
     return view('es.vagones');
 })->name('es-vagones');
 
+Route::get('en-vagones', function () {
+    return view('en.vagones');
+})->name('en-vagones');
+
+/*Palas en español e ingles*/
 Route::get('palas', function () {
     return view('es.palas');
 })->name('es-palas');
 
+Route::get('en-palas', function () {
+    return view('en.palas');
+})->name('en-palas');
+
+/*Metalmecanica en español e ingles*/
 Route::get('metalmecanica', function () {
     return view('es.metalmecanica');
 })->name('es-metalmecanica');
 
+Route::get('en-metalmecanica', function () {
+    return view('en.metalmecanica');
+})->name('en-metalmecanica');
+
+/*Seervicios en español e ingles*/
+
 Route::get('servicios', function () {
     return view('es.servicios');
 })->name('es-servicios');
+
+Route::get('en-servicios', function () {
+    return view('en.servicios');
+})->name('en-servicios');
 
 /* -----------------------------------  */
 
@@ -116,11 +152,11 @@ Route::get('wr150t', function () {
 Route::get('/', 'HomeController@index')->name('es-inicio');
 Route::get('/en', 'HomeController@enindex')->name('en-inicio');
 
+
+
 /* Rutas para la pagina del administrador*/
-
 //-- CRUD --//
-//vista para la 
-
+//vista para la
 
 Route::get('/noticias','Admin\NoticiasController@index')->name('noticias.view');
 
@@ -131,7 +167,7 @@ Route::get('/noticias/{id}','Admin\NoticiasController@edit')->name('noticias.edi
 Route::post('/noticias/{id}/update','Admin\NoticiasController@update')->name('noticias.update');
 
 
-//Para la creatcio
+//Para la creacion
 Route::get('/create/noticias','Admin\NoticiasController@create')->name('noticias.create');
 
 //Para Guardar en la base de datos

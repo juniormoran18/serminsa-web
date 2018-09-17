@@ -25,10 +25,7 @@ class HomeController extends Controller
                 'noticias' => $noticias1,
                 'segundasNoticias' => $noticias2
             ];
-        
-        \Log::info($noticias1);
-        \Log::info($noticias2);
-        return view('es.inicio')->with('noticias',$noticias1);
+        return view('es.inicio',$data);
     }
     public function enindex() {
         $noticias = Noticia::all();

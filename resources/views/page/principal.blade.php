@@ -64,7 +64,7 @@
             </div>
         </nav>
 <!--end of nav -->        
-         <div class="col-md-12 espacio">.</div>
+         <div class="col-md-12 espacio"></div>
 <!--content-->
          @yield('content')
         
@@ -152,12 +152,12 @@
                             
                                         <h1 class="title-widget">Contacto </h1>
                                         
-                                        <div class="footerp"> 
+                                        <div class="footerp">
                                         
                                         <p><b>Email:</b> <a href="mailto:serminsa@serminsa.com.pe">serminsa@serminsa.com.pe</a></p>
                                         <p><b>Teléfonos:</b>
         
-                                        <b style="color:#ffc106;">(9am a 6pm):</b>  <p>01 713 4228, 01 7134225</p>  </p>
+                                        <b style="color:#ffc106;">(9am a 6pm):</b>  <p>01 713 4228, 01 7134225</p>  </div>
         
                                         
                                         <div class="social-icons">
@@ -206,6 +206,7 @@
     <script type="text/javascript" src="/js/popper.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="/js/jquery.liveFilter.js"></script>
     
      <script>
         $('.owl-carousel').owlCarousel({
@@ -267,6 +268,10 @@
         $('#btnref5').on('click', function() {
             window.open('{{ route('es-servicios') }}');
         })
+        </script>
+
+        <script type="text/javascript">
+            $('#directory').liveFilter('#search-box', 'li', { filterChildSelector: '.name'});
         </script>
     
     
