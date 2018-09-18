@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/cardslider.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 
 </head>
 <body>
@@ -453,19 +455,19 @@
     });
 
     $('#btnref').on('click', function() {
-        window.open('locomotoras.html');
+        window.open('en-locomotoras');
     })
     $('#btnref2').on('click', function() {
-        window.open('vagones.html');
+        window.open('en-vagones');
     })
     $('#btnref3').on('click', function() {
-        window.open('palas.html');
+        window.open('en-palas');
     })
     $('#btnref4').on('click', function() {
-        window.open('metalmecanica.html');
+        window.open('en-metalmecanica');
     })
     $('#btnref5').on('click', function() {
-        window.open('servicios.html');
+        window.open('en-servicios');
     })
 </script>
 

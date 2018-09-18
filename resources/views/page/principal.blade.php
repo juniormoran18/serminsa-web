@@ -103,7 +103,7 @@
                                         <h1 class="title-widget">Nosotros</h1>
                                         
                                         <ul>
-         									<li><a  href="nosotros.html#quienes"><i class="fa fa-angle-double-right"></i>  ¿Quiénes somos?</a></li>
+         									<li><a  href="{{ route('es-nosotros') }}"><i class="fa fa-angle-double-right"></i>  ¿Quiénes somos?</a></li>
                                             <li><a  href="nosotros.html#historia"><i class="fa fa-angle-double-right"></i>  Historia</a></li>
                                             <li><a  href="nosotros.html#mision"><i class="fa fa-angle-double-right"></i>  Misión y visión</a></li>
                                             <li><a  href="nosotros.html#politica"><i class="fa fa-angle-double-right"></i>  Política de calidad</a></li>
