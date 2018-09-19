@@ -54,13 +54,13 @@
                     </li>
                 </ul>
                 <img src="img/logo/english.png" style="height:1rem;"/> <a href="{{ route('en-inicio') }}">English</a>
-                <ul style="margin-top:1rem;">
+                <!--<ul style="margin-top:1rem;">
                     <div class="search-box">
                         <a class="search-btn dropdown">
                             <i class="fas fa-search"></i>
                         </a>
                     </div>
-                </ul>
+                </ul>-->
             </div>
         </nav>
 <!--end of nav -->        

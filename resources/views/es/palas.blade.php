@@ -5,7 +5,6 @@
 
 <!-- slider -->
 
-    <div class="col-md-12 espacio">.</div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -57,22 +56,14 @@
     <div>
         <div class="row">
             <div class="col-md-5" style="padding-top: 2rem;">
-                <h3>PALA MODELO 12B</h3>
+                <h3>PALA MODELO 12B y 21B</h3>
                 <a></a>
             </div>
             <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
                 <img src="img/menu/pala.png" class="img-thumbnail" style="max-width:65%"> 
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-5" style="padding-top: 2rem;">
-                <h3>PALA MODELO 21B</h3>
-                <a></a>
-            </div>
-            <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
-                <img src="img/menu/pala.png" class="img-thumbnail" style="max-width:65%"> 
-            </div>
-        </div>
+
         <div id="caract" style="padding-top: 2rem;">
             <table class="table">
               <thead class="thead-dark">
@@ -88,112 +79,112 @@
                   <th scope="row"></th>
                   <td>Ancho general</td>
                   <td>735 mm</td>
-                  <td>29"</td>
+                  <td></td>
                   <td>851 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Ancho de Operación</td>
                   <td>865 mm</td>
-                  <td>34"</td>
+                  <td></td>
                   <td>1067 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Largo General</td>
                   <td>1120 mm</td>
-                  <td>44"</td>
+                  <td></td>
                   <td>1397 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Largo con cuchara abajo</td>
                   <td>1805 - 1980 mm</td>
-                  <td>71" - 78"</td>
+                  <td></td>
                   <td>2210 - 2286 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Alto con cuchara abajo</td>
                   <td>1220 - 1295 mm</td>
-                  <td>48" - 51"</td>
+                  <td></td>
                   <td>1422 - 1549 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Alto en descarga (dependiendo del modelo de carro)</td>
                   <td>1995 - 2110 mm</td>
-                  <td>78" - 83"</td>
+                  <td></td>
                   <td>2235 - 2515 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Alto de cuchara en descarga</td>
                   <td>1170 - 1500 mm</td>
-                  <td>46" - 59"</td>
+                  <td></td>
                   <td>1321 -1727 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Trocha</td>
                   <td>380 - 915 mm</td>
-                  <td>15" - 36"</td>
+                  <td></td>
                   <td>457 - 1219 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Rango de presión de aire</td>
                   <td>4.2 - 8.8 kg/cm2</td>
-                  <td>60-125 psi</td>
+                  <td></td>
                   <td>4.2 - 7.0 kg/cm2</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Diámetro de manguera</td>
                   <td>20 - 25 mm</td>
-                  <td>3/4" - 1"</td>
+                  <td></td>
                   <td>25 - 32 mm</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Ciclo de carga completo en segundos</td>
                   <td>6</td>
-                  <td>6</td>
+                  <td></td>
                   <td>7</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Capacidad de cuchara</td>
                   <td>0.13 - 0.17 m3</td>
-                  <td>4.6 - 6 ft3</td>
+                  <td></td>
                   <td>0.21 - 0.28 m3</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Capacidad de carga</td>
                   <td>0.5 - 1 m3/min</td>
-                  <td>18 - 36 ft3/min</td>
+                  <td></td>
                   <td>0.99 - 1.41 m3/min</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Motores(aires)</td>
                   <td>2</td>
-                  <td>2</td>
+                  <td></td>
                   <td>2</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Peso</td>
                   <td>1905 kg</td>
-                  <td>4200 lb</td>
+                  <td></td>
                   <td>3266 kg</td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
                   <td>Consumo de Aire</td>
                   <td>7 m3 / min</td>
-                  <td>250 cfm</td>
+                  <td></td>
                   <td>300 cfm</td>
                 </tr>
                 </tr>

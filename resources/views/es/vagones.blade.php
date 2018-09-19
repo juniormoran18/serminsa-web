@@ -297,7 +297,7 @@
             <a style="">Los shuttlecars están diseñados para operar eficientemente en áreas de trabajo estrechas o limitadas con la capacidad de lograr un rápido transporte dentro y fuera del túnel.</a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/vagones/Vagon.png" class="img-thumbnail" style="max-width:100%"> 
+                <img src="img/vagones/Shutlercar.jpg" class="img-thumbnail" style="max-width:100%">
             </div>
     </div>
     <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
