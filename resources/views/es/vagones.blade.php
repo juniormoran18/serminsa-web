@@ -2,7 +2,6 @@
 
 @section('content')
 
-    <div class="col-md-12 espacio">.</div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -72,55 +71,57 @@
             <table class="table">
               <thead class="thead-dark">
                 <tr>
-                  <th scope="col"></th>
-                  <th colspan="4" scope="col">Medidas de Tolva (mm)</th>
-                  <th colspan="4" scope="col">Dimensiones Principales (mm)</th>
+
+                  <th colspan ="2" scope="col" style="background: white; border:0;"></th>
+                  <th colspan="7" scope="col" class="text-center">Dimensiones Principales (mm)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Capacidad</th>
+                  <th scope="row">Modelo</th>
+                  <th scope="col">Capacidad(p3)</th>
                   <th scope="col">Alt/s Riel</th>
+                    <th scope="col">Dist. Ejes</th>
                   <th scope="col">Trocha (mm)</th>
                   <th scope="col">Long. Total</th>
-                  <th scope="col">Ancho Total</th>
-                  <th scope="col">Ancho Tolva</th>
-                  <th scope="col">Altura Tolva</th>
+                    <th scope="col">Ancho Total</th>
+                    <th scope="col">Dia. Rueda</th>
                   <th scope="col">Peso Total/ Kg.</th>
-                  <th scope="col">Dia. Rueda</th>
+
                 </tr>
                 <tr>
                   <th scope="row">U-21</th>
+                    <th scope="row">21</th>
                   <td>1150</td>
-                  <td>500</td>
+                  <td>620</td>
+                  <td>500/600</td>
                   <td>1610</td>
                   <td>680</td>
-                  <td>680</td>
-                  <td>750</td>
-                  <td>450</td>
                   <td>12 pulg.</td>
+                  <td>450Kg</td>
                 </tr>
                 <tr>
                   <th scope="row">U-35</th>
+                    <th scope="row">35</th>
                   <td>1250</td>
-                  <td>500</td>
-                  <td>2030</td>
-                  <td>810</td>
-                  <td>800</td>
-                  <td>890</td>
                   <td>620</td>
+                  <td>500/600</td>
+                  <td>1610</td>
+                    <td>810</td>
                   <td>12 pulg.</td>
+                  <td>620Kg</td>
+
                 </tr>
                 <tr>
                   <th scope="row">V40</th>
+                    <th scope="row">40</th>
                   <td>1313</td>
-                  <td>500</td>
-                  <td>2457</td>
-                  <td>1032</td>
-                  <td>965</td>
-                  <td>806</td>
-                  <td>1220</td>
+                  <td>620</td>
+                  <td>500/600</td>
+                  <td>2155</td>
+                  <td>1045</td>
                   <td>14 pulg.</td>
+                  <td>1220Kg</td>
                 </tr>
                 </tr>
               </tbody>
@@ -146,141 +147,142 @@
             <table class="table">
               <thead class="thead-dark">
                 <tr>
-                  <th scope="col"></th>
-                  <th colspan="5" scope="col">Dimensiones Principales (mm)</th>
-                  <th colspan="5" scope="col">Medidas de Tolva (mm)</th>
+                    <th colspan ="2" scope="col" style="background: white; border:0;"></th>
+                  <th colspan="7" scope="col" class="text-center">Dimensiones Principales (mm)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Capacidad</th>
-                  <th scope="col">Alt. al Riel</th>
+                    <th scope="row">Modelo</th>
+                  <th scope="row">Capacidad (p3)</th>
+                  <th scope="col">Alt/s Riel</th>
                   <th scope="col">Dist. Ejes</th>
                   <th scope="col">Trocha (mm)</th>
                   <th scope="col">Long. Total</th>
                   <th scope="col">Ancho Total</th>
-                  <th scope="col">Long. Int. Tolva</th>
-                  <th scope="col">Ancho Tolva</th>
-                  <th scope="col">Altura Tolva</th>
-                  <th scope="col">Peso Total / kg.</th>
                   <th scope="col">Dia. Rueda</th>
+                  <th scope="col">Peso Total / kg.</th>
                 </tr>
                 <tr>
-                  <th scope="row">60 p3</th>
+                  <th scope="row">60 p3 - Retráctil</th>
+                    <th scope="row">60</th>
                   <td>1358</td>
-                  <td>833</td>
+                  <td>834</td>
                   <td>500/600/750</td>
                   <td>2041</td>
-                  <td> </td>
-                  <td>1927</td>
-                  <td>1150</td>
-                  <td>785</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>1357</td>
+                  <td>14 pulg.</td>
+                  <td>1840 Kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">80 p3</th>
+                  <th scope="row">80 p3 - Fija</th>
+                    <th scope="row">80</th>
                   <td>1398</td>
                   <td>1060</td>
                   <td>500/600</td>
                   <td>3120</td>
-                  <td> </td>
-                  <td>2665</td>
-                  <td>1200</td>
-                  <td>805</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>1587</td>
+                  <td>14 pulg.</td>
+                  <td>2100 Kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">100 p3</th>
+                  <th scope="row">80 p3 - Retráctil</th>
+                    <th scope="row">100</th>
+                  <td>1398</td>
+                  <td>1060</td>
+                  <td>500/600</td>
+                  <td>3120</td>
+                  <td>1422</td>
+                  <td>14 pulg.</td>
+                  <td>2150 Kg</td>
+                </tr>
+                <tr>
+                  <th scope="row">100 p3 - Fija</th>
+                    <th scope="row">100</th>
                   <td>1386</td>
                   <td>1070</td>
                   <td>600</td>
-                  <td>3810</td>
-                  <td> </td>
-                  <td>2700</td>
-                  <td>1345</td>
-                  <td>800</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>3160</td>
+                  <td>1665</td>
+                  <td>16 pulg.</td>
+                  <td>2900 Kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">110 p3</th>
-                  <td>1580</td>
-                  <td>1220</td>
-                  <td>600/750</td>
-                  <td>3880</td>
-                  <td> </td>
-                  <td>2795</td>
-                  <td>1219</td>
-                  <td>990</td>
-                  <td> </td>
-                  <td> </td>
+                    <th scope="row">110 p3 - Fija</th>
+                    <th scope="row">100</th>
+                    <td>1580</td>
+                    <td>1220</td>
+                    <td>600/750</td>
+                    <td>3880</td>
+                    <td>1701</td>
+                    <td>16 pulg.</td>
+                    <td>2800 Kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">120 p3</th>
+                  <th scope="row">120 p3 - Fija</th>
+                    <th scope="row">120</th>
                   <td>1537</td>
                   <td>1060</td>
                   <td>600/762</td>
                   <td>3454</td>
-                  <td> </td>
-                  <td>2885</td>
-                  <td>1300</td>
-                  <td>930</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>1701</td>
+                    <td>16 pulg.</td>
+                  <td>3100kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">135 p3</th>
-                  <td>1580</td>
-                  <td>1220</td>
-                  <td>600</td>
-                  <td>3632</td>
-                  <td> </td>
-                  <td>3150</td>
-                  <td>1219</td>
-                  <td>990</td>
-                  <td> </td>
-                  <td> </td>
+                    <th scope="row">120 p3 - Retráctil</th>
+                    <th scope="row">120</th>
+                    <td>1537</td>
+                    <td>1060</td>
+                    <td>600/762</td>
+                    <td>3454</td>
+                    <td>1493</td>
+                    <td>16 pulg.</td>
+                    <td>3150kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">140 p3</th>
+                  <th scope="row">140 p3 - Fija</th>
+                    <th scope="row">140</th>
                   <td>1651</td>
                   <td>1050</td>
                   <td>750</td>
                   <td>3400</td>
-                  <td> </td>
-                  <td>2854</td>
-                  <td>1365</td>
-                  <td>1044</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>1794</td>
+                  <td>16 pulg.</td>
+                  <td>3500kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">160 p3</th>
+                  <th scope="row">160 - Fija</th>
+                    <th scope="row">160</th>
                   <td>1544</td>
                   <td>1215</td>
                   <td>762</td>
                   <td>3980</td>
-                  <td> </td>
-                  <td>3250</td>
-                  <td>1370</td>
-                  <td>960</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>1823</td>
+                  <td>16 pulg.</td>
+                  <td>4250kg</td>
                 </tr>
                 <tr>
-                  <th scope="row">180 p3</th>
+                    <th scope="row">160 - Retráctil</th>
+                    <th scope="row">160</th>
+                    <td>1544</td>
+                    <td>1215</td>
+                    <td>762</td>
+                    <td>3500</td>
+                    <td>1662</td>
+                    <td>16 pulg.</td>
+                    <td>4000kg</td>
+                </tr>
+                <tr>
+                  <th scope="row">180 p3 - Fija</th>
+                    <th scope="row">180</th>
                   <td>1711</td>
                   <td>1215</td>
                   <td>762</td>
                   <td>4000</td>
-                  <td> </td>
-                  <td>3520</td>
-                  <td>1370</td>
-                  <td>1100</td>
-                  <td> </td>
-                  <td> </td>
+                  <td>1805</td>
+                  <td>16 pulg.</td>
+                  <td>4500kg</td>
                 </tr>
                 </tr>
               </tbody>
@@ -289,15 +291,15 @@
         </div>
     </div>
     
-    <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
+    <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;" id="otros"></div>
           <h3>OTROS</h3>
     <div class="row">
         <div class="col-md-6" style="padding-top: 2rem;">
-            <h5>SHUTTLECARS</h5>
+            <h5>VAGON DE CICLO CONTINUO (SHUTTLECAR)</h5>
             <a style="">Los shuttlecars están diseñados para operar eficientemente en áreas de trabajo estrechas o limitadas con la capacidad de lograr un rápido transporte dentro y fuera del túnel.</a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/vagones/Shutlercar.jpg" class="img-thumbnail" style="max-width:100%">
+                <img src="img/vagones/Shuttlecar.jpg" class="img-thumbnail" style="max-width:100%">
             </div>
     </div>
     <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
@@ -319,6 +321,16 @@
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
                 <img src="img/vagones/Vagon.png" class="img-thumbnail" style="max-width:100%"> 
             </div>
+    </div>
+    <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
+    <div class="row">
+        <div class="col-md-6" style="padding-top: 2rem;">
+            <h5>MIXER DE COCRETO DE 4m3</h5>
+            <a style="">Fabricamos  todo tipo de plataformas para las distintas industrias ferroviarias y afines. Acondicionamos Sistemas de frenos para equipos con neumáticos a fin de poder ser transportados y operados también en rieles.</a>
+        </div>
+        <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
+            <img src="img/vagones/Charuto.jpg" class="img-thumbnail" style="max-width:100%">
+        </div>
     </div>
     
 </div>
