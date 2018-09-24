@@ -44,7 +44,7 @@
 <div class="container">
     <div style="padding-top: 1em;">
         <div class="row" style="padding:2em 0 0;">
-                <div class="col-md-9"><h2>CARROS MINEROS</h2></div>
+                <div class="col-md-9"><h2>VAGONES</h2></div>
                 <div  class="col-md-1"><a href="#U-35"><h5>U-35 / V-40</h5></a></div>
                 <div  class="col-md-1"><a href="#gramby"><h5>Gramby</h5></a></div>
                 <div  class="col-md-1"><a href="#otros"><h5>Otros</h5></a></div>
@@ -60,7 +60,7 @@
             </div>
             
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/vagones/img2.png" class="img-thumbnail" style="max-width:85%"> 
+                <img src="../../../public/img/vagones/Carro%20U35.jpg" class="img-thumbnail" style="max-width:85%">
             </div>
             <div>
                 <h5 style="padding-left:1rem;">CUADRO DE DIMENSIONES GENERALES PARA CARROS TIPO "U" Y "V-40"</h5>
@@ -287,7 +287,7 @@
                 </tr>
               </tbody>
             </table>
-            
+            <p>·Las medidas y pesos son referenciales y varían  de acuerdo a las especificaciones de cada unidad minera.</p>
         </div>
     </div>
     
@@ -296,7 +296,7 @@
     <div class="row">
         <div class="col-md-6" style="padding-top: 2rem;">
             <h5>VAGON DE CICLO CONTINUO (SHUTTLECAR)</h5>
-            <a style="">Los shuttlecars están diseñados para operar eficientemente en áreas de trabajo estrechas o limitadas con la capacidad de lograr un rápido transporte dentro y fuera del túnel.</a>
+            <a style="">Los vagones de ciclo contínuo (Shuttlecar) son principalmente utilizados en la excavación de túneles de larga distancia y dimensiones angostas, donde su accionamiento eléctrico y traslado continuo de material de vagón a vagón permite la extracción de grandes volúmenes en corto tiempo. Serminsa fabrica estos vagones en capacidades de 11 y 14 m3 (22,000 kgs) con accionamiento eléctrico y a control remoto.</a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
                 <img src="img/vagones/Shuttlecar.jpg" class="img-thumbnail" style="max-width:100%">
@@ -305,11 +305,11 @@
     <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
     <div class="row">
         <div class="col-md-6" style="padding-top: 2rem;">
-            <h5>CALESAS PARA TRANSPORTE DE PERSONAL</h5>
+            <h5>CALESA DE TRANSPORTE DE PERSONAL</h5>
             <a style="">Utilizadas para el transporte de personal tanto en minas como en construcción de túneles. La capacidad y otras especificaciones de los vagones son determinados junto con el cliente.</a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/vagones/Vagon.png" class="img-thumbnail" style="max-width:100%"> 
+                <img src="img/vagones/Calesa-2.jpg" class="img-thumbnail" style="max-width:100%">
             </div>
     </div>
     <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
@@ -319,14 +319,14 @@
             <a style="">Fabricamos  todo tipo de plataformas para las distintas industrias ferroviarias y afines. Acondicionamos Sistemas de frenos para equipos con neumáticos a fin de poder ser transportados y operados también en rieles.</a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/vagones/Vagon.png" class="img-thumbnail" style="max-width:100%"> 
+                <img src="img/vagones/im2.jpg" class="img-thumbnail" style="max-width:100%">
             </div>
     </div>
     <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>
     <div class="row">
         <div class="col-md-6" style="padding-top: 2rem;">
-            <h5>MIXER DE COCRETO DE 4m3</h5>
-            <a style="">Fabricamos  todo tipo de plataformas para las distintas industrias ferroviarias y afines. Acondicionamos Sistemas de frenos para equipos con neumáticos a fin de poder ser transportados y operados también en rieles.</a>
+            <h5>MIXERS</h5>
+            <a style="">Utilizados principalmente en la construcción de túneles, estos robustos mixers de concreto de 4m3 permiten un rápido traslado de concreto al interior de la obra. Su accionamiento neumático o eléctrico permite un rápido vaciado en el interior del túnel.</a>
         </div>
         <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
             <img src="img/vagones/Charuto.jpg" class="img-thumbnail" style="max-width:100%">

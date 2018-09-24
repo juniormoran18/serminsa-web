@@ -34,13 +34,13 @@
                                             <td><a class="btn btn-primary btn-xs"
                                                    href="{{ route('noticias.edit',["id"=>$noticia->id])}}"><span
                                                             class="glyphicon glyphicon-pencil"></span></a></td>
-                                            <td>
+                                            <!--<td>
                                                 <a href="{{ route('noticias.delete',["id"=>$noticia->id])}}"
                                                    class="btn btn-danger btn-xs"
                                                    onclick="return confirm('Deseas eliminar la noticia?');">
                                                     <span class="glyphicon glyphicon-trash"></span>
                                                 </a>
-                                            </td>
+                                            </td>-->
                                         </tr>
                                     @endforeach
                                 @else

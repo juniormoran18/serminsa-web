@@ -207,9 +207,9 @@
         <div class="container p-t-0 m-t-2 carousel-inner">
             <div class="row row-equal carousel-item active m-t-0">
                 @foreach($noticias as $noticia)
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="height: 50rem;">
                         <div class="card">
-                            <div class="card-img-top card-img-top-250">
+                            <div class="card-img-top card-img-top-250" style="min-height:250px;">
                                 <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
                             </div>
                             <div class="card-block p-t-2">
@@ -223,9 +223,9 @@
             <!--Segunda lista de noticias -->
             <div class="row row-equal carousel-item m-t-0">
                 @foreach($segundasNoticias as $noticia)
-                    <div class="col-md-4">
+                    <div class="col-md-4"  style="height: 50rem;">
                         <div class="card">
-                            <div class="card-img-top card-img-top-250">
+                            <div class="card-img-top card-img-top-250" style="min-height:250px;">
                                 <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
                             </div>
                             <div class="card-block p-t-2">

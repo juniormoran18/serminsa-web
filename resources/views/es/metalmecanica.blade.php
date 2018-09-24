@@ -5,7 +5,6 @@
 
 <!-- slider -->
 
-    <div class="col-md-12 espacio">.</div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -54,7 +53,9 @@
         <a>Nuestra División de Diseño y Metalmecánica fabrica tanques, estructuras, plataformas, etc. en acero estructural e inoxidable. Las fabricaciones son bajo estándares internacionales, con personal homologado en procesos de soldadura GMAW-FCAW-SMAW y con una planta de fabricación completa.  </a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/menu/metalmecanica.png" class="img-thumbnail" style="max-width:100%"> 
+                <img src="img/menu/metalmecanica.png" class="img-thumbnail" style="max-width:75%">
+                <img src="img/metal/Tanque-2.jpg" class="img-thumbnail" style="max-width:75%">
+                <img src="img/metal/Tanque-3.jpg" class="img-thumbnail" style="max-width:75%">
             </div>
     </div>
     

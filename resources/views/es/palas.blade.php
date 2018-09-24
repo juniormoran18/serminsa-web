@@ -55,12 +55,15 @@
     </div>
     <div>
         <div class="row">
-            <div class="col-md-5" style="padding-top: 2rem;">
+            <div class="col-md-6" style="padding-top: 2rem;">
                 <h3>PALA MODELO 12B y 21B</h3>
                 <a></a>
             </div>
-            <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
-                <img src="img/menu/pala.png" class="img-thumbnail" style="max-width:65%"> 
+            <div class="col-md-3" style="padding-top: 2rem; padding-left:0rem;">
+                <img src="img/menu/pala.png" class="img-thumbnail" style="max-width:100%">
+            </div>
+            <div class="col-md-3" style="padding-top: 2rem; padding-left:0rem;">
+              <img src="img/palas/pala2.png" class="img-thumbnail" style="max-width:75%">
             </div>
         </div>
 
