@@ -13,7 +13,7 @@
                         </div>
                         <div class="table-container">
                             <table id="mytable" class="table table-bordred table-striped">
-                                <thead>
+                                <tr>
 
                                 <th>Titulo</th>
                                 <th>Contenido</th>
