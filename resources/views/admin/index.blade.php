@@ -19,7 +19,7 @@
                                 <th>Contenido</th>
                                 <th>Imagen</th>
                                 <th>Editar</th>
-                                <th>Eliminar</th>
+                                <<!--<th>Eliminar</th>->
                                 </thead>
                                 <tbody>
                                 @if(count($noticias) !== 0)

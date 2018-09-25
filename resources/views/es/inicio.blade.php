@@ -194,7 +194,7 @@
     <section class="carousel slide general3" data-ride="carousel" id="postsCarousel">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 margin-title"><h1>NOTICIAS</h1></div>
+                <div class="col-md-10 margin-title"><h2>NOTICIAS</h2></div>
                 <div class="col-2 text-right mb-4">
                     <a class="btn btn-outline-secondary prev" href="" title="go back"><i
                                 class="fa fa-lg fa-chevron-left"></i></a>
@@ -213,7 +213,7 @@
                                 <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
                             </div>
                             <div class="card-block p-t-2">
-                                <div class="card-header"><h3>{{ $noticia->titulo }}</h3></div>
+                                <div class="card-header"><h4>{{ $noticia->titulo }}</h4></div>
                                 <div class="card-text" style="padding:1rem;">{{ $noticia->contenido }}</div>
                             </div>
                         </div>
