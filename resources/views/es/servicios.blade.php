@@ -62,7 +62,7 @@
                         clientes.</a>
                 </div>
                 <div class="col-md-6" style="padding-top: 2rem; padding-left:6rem;">
-                    <img src="img/vagones/img-3.png" class="img-thumbnail" style="max-width:55%">
+                    <img src="img/vagones/img-3.jpg" class="img-thumbnail" style="max-width:55%">
                 </div>
             </div>
             <div class="row">
@@ -74,7 +74,7 @@
                         garantía y garantía extendida según sea el caso.</a>
                 </div>
                 <div class="col-md-6" style="padding-top: 2rem; padding-left:6rem;">
-                    <img src="img/vagones/img-3.png" class="img-thumbnail" style="max-width:55%">
+                    <img src="img/vagones/img-3.jpg" class="img-thumbnail" style="max-width:55%">
                 </div>
             </div>
             <div class="row">
@@ -86,7 +86,7 @@
                     </a>
                 </div>
                 <div class="col-md-6" style="padding-top: 2rem; padding-left:6rem;">
-                    <img src="img/vagones/img-3.png" class="img-thumbnail" style="max-width:55%">
+                    <img src="img/vagones/img-3.jpg" class="img-thumbnail" style="max-width:55%">
                 </div>
             </div>
             <div class="row">
