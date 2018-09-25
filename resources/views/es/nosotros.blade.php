@@ -100,10 +100,10 @@
                           Garantizar el cumplimiento de los requisitos acordados con nuestros clientes.
                         </p>
                         <p>
-                          Establecer estándares de excelencia operacional en sus productos y servicios, la cual permitan lograr la satisfacción de sus clientes, en cuanto al desempeño, duración y costo de sus equipos.
+                          Establecer estándares de excelencia operacional en sus productos y servicios, la cual permitan lograr la satisfacción de sus clientes, en cuanto al desempeño, duración y costo de sus equipos .
                         </p>
                         <p>
-                          Monitorear la eficiencia de nuestros procesos de fabricación y diseño, aplicando puntos de control de calidad y analizando resultados.
+                          Monitorear la eficiencia de nuestros procesos de fabricación y diseño, aplicando puntos de control de calidad y analizando resultados .
                         </p>
                         <p>
                           Fomentar la mejora continua y desarrollo profesional en sus colaboradores, proporcionando los recursos necesarios para lograr los objetivos de calidad que parten de esta política. 
