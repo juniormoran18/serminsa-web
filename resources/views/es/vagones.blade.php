@@ -60,7 +60,11 @@
             </div>
             
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
+<<<<<<< HEAD
                 <img src="img/vagones/U35.jpg" class="img-thumbnail" style="max-width:85%">
+=======
+                <img src="img/vagones/u35.jpg" class="img-thumbnail" style="max-width:85%">
+>>>>>>> e4dbbb94d0e6ed75fe699712d79bf609a1079426
             </div>
             <div>
                 <h5 style="padding-left:1rem;">CUADRO DE DIMENSIONES GENERALES PARA CARROS TIPO "U" Y "V-40"</h5>
