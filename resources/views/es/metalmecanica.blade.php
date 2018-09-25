@@ -54,8 +54,8 @@
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
                 <img src="img/menu/metalmecanica.png" class="img-thumbnail" style="max-width:75%">
-                <img src="img/metal/Tanque-2.jpg" class="img-thumbnail" style="max-width:75%">
-                <img src="img/metal/Tanque-3.jpg" class="img-thumbnail" style="max-width:75%">
+                <img src="img/Metal/Tanque-2.jpg" class="img-thumbnail" style="max-width:75%">
+                <img src="img/Metal/Tanque-3.jpg" class="img-thumbnail" style="max-width:75%">
             </div>
     </div>
     
