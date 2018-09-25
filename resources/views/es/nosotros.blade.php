@@ -36,7 +36,7 @@
                       </p>
                     </div>
                     <div class="col-md-5">
-                      <img src="img/noticias/img1.jpg" class="img-fluid rounded" alt="Responsive image">
+                      <img src="img/Nosotros/1.jpg" class="img-fluid rounded" alt="Responsive image">
                     </div>
                   </div>
                 </div>
@@ -80,7 +80,7 @@
                       </p>
                     </div>
                     <div class="col-md-5">
-                      <img src="img/noticias/img1.jpg" class="img-fluid rounded" alt="Responsive image">
+                      <img src="img/Nosotros/2.jpg" class="img-fluid rounded" alt="Responsive image">
                     </div>
                   </div>
                 </div>
@@ -111,7 +111,7 @@
                       </div>
                     </div>
                     <div class="col-md-5">
-                      <img src="img/noticias/img1.jpg" class="img-fluid rounded" alt="Responsive image">
+                      <img src="img/Nosotros/3.jpg" class="img-fluid rounded" alt="Responsive image">
                     </div>
                   </div>
                 </div>
