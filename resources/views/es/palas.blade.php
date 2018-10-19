@@ -47,11 +47,11 @@
 <div class="container">
     <div style="padding-top: 1em;">
         <div class="row" style="padding:2em 0 0;">
-                <div class="col-md-10"><h2>Palas</h2></div>
+                <div class="col-md-10"><h2>Palas Neumáticas</h2></div>
                 <div  class="col-md-2"><a href="#caract"><h5>Características</h5></a></div>
             </div>
         <div class="col-md-12 espacio1"  style="margin-bottom:1rem;"></div>
-        <a>SERMINSA distribuye las Palas Originales EIMCO 12B Y 21B fabricadas con los más altos estándares de calidad ISO 9001 y 14001. Además de la Pala EIMCO 150/1000B Hooper Loader (equivalente a la Pala Cavo 310 de Atlas Copco).</a>
+        <a>SERMINSA distribuye las Palas Originales EIMCO 12B Y 21B fabricadas por la empresa EIMCO ELECON LTD bajo los más altos estándares de calidad ISO 9001 y 14001 .</a>
     </div>
     <div>
         <div class="row">
@@ -171,7 +171,7 @@
                 </tr>
                 <tr>
                   <th scope="row"></th>
-                  <td>Motores(aires)</td>
+                  <td>Motores (Neumáticos)</td>
                   <td>2</td>
                   <td></td>
                   <td>2</td>
@@ -186,7 +186,7 @@
                 <tr>
                   <th scope="row"></th>
                   <td>Consumo de Aire</td>
-                  <td>7 m3 / min</td>
+                  <td>250 cfm</td>
                   <td></td>
                   <td>300 cfm</td>
                 </tr>

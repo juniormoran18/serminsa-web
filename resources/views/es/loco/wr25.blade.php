@@ -16,6 +16,11 @@
                 <button type="button" class="btn btn-dark btn-lg btn-block" style="height:2.6rem;">SOLICITAR COTIZACIÓN</button>
                 <h5 style="padding: 1rem 0;">5/5.5 Toneladas</h5>
                 <div class="col-md-12 espacio1"></div>
+                <div style="margin-top: 1rem;">
+                    <p align="justify">
+                        Un equipo de probadas y excepcionales características técnicas, que permite un gran volumen de extracción para minas de mayor producción. En versiones de motor central y posterior, permiten adecuarse a las necesidades específicas de cada mina.
+                    </p>
+                </div>
             </div>
             <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
                 <img src="img/Locomotoras/WR20.png" class="img-thumbnail" style="max-width:75%"> 
@@ -26,7 +31,7 @@
               <thead class="thead-dark">
                 <tr>
                   <th scope="col"></th>
-                  <th colspan="3" scope="col">Caracteristicas</th>
+                  <th colspan="3" scope="col">Caracteristicas Técnicas</th>
                   
                 </tr>
               </thead>
@@ -61,7 +66,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Bancos de batería</th>
-                  <td>70 celdas (140VDC) de 325Ah</td>>
+                  <td>70 celdas (140VDC) de 325Ah</td>
                 </tr>
                 <tr>
                   <th scope="row">Cargador</th>

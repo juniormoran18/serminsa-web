@@ -154,10 +154,12 @@
                                         
                                         <div class="footerp">
                                         
-                                        <p><b>Email:</b> <a href="mailto:serminsa@serminsa.com.pe">serminsa@serminsa.com.pe</a></p>
-                                        <p><b>Teléfonos:</b>
+                                            <p><b>Email:</b> <a href="mailto:serminsa@serminsa.com.pe">serminsa@serminsa.com.pe</a></p>
+                                            <p><b>Teléfonos:</b>
         
-                                        <b style="color:#ffc106;">(9am a 6pm):</b>  <p>01 713 4228, 01 7134225</p>  </div>
+                                            <b style="color:#ffc106;">(9am a 6pm):</b>  <p>01 713 4228 / 01 7134225</p>
+                                            <p><b>WhatsApp:</b> <a href="">989 167 440</a></p>
+                                        </div>
         
                                         
                                         <div class="social-icons">

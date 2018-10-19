@@ -16,9 +16,14 @@
                 <button type="button" class="btn btn-dark btn-lg btn-block" style="height:2.6rem;">SOLICITAR COTIZACIÓN</button>
                 <h5 style="padding: 1rem 0;">2 Toneladas</h5>
                 <div class="col-md-12 espacio1"></div>
+                <div style="margin-top: 1rem;">
+                    <p align="justify">
+                        Locomotora de dimensiones pequeñas, ideal para trabajos en vetas angostas. Cuenta con un motor eléctrico de 8HP robusto y una distancia entre ejes reducida, permite la extracción de mineral eficiente en zonas de trabajo reducidos y de curvaturas pronunciadas.
+                    </p>
+                </div>
             </div>
             <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
-                <img src="img/Locomotoras/WR8-2.png" class="img-thumbnail" style="max-width:75%"> 
+                <img src="img/Locomotoras/WR8.png" class="img-thumbnail" style="max-width:75%">
             </div>
         </div>
         <div style="padding-top: 2rem;">
@@ -26,8 +31,7 @@
               <thead class="thead-dark">
                 <tr>
                   <th scope="col"></th>
-                  <th colspan="3" scope="col">Caracteristicas</th>
-                  
+                  <th colspan="3" scope="col">Caracteristicas Técnicas</th>
                 </tr>
               </thead>
               <tbody>
@@ -48,32 +52,29 @@
                   <td>48</td>
                 </tr>
                 <tr>
-                  <th scope="row">Control</th>
-                  <td>Electromecánico de levas y contactos, Modelo: SPC-490</td
+                  <th scope="row"> Control</th>
+                  <td>Electromecánico de levas y contactos, Modelo: SPC-490</td>
                 </tr>
                 <tr>
-                  <th scope="row">Freno</th>
-                  <td>Caja de transmisión tipo tornillo sin fin y corona dentada, montado en eje</td>
+                  <th scope="row"> Freno </th>
+                  <td> Caja de transmisión tipo tornillo sin fin y corona dentada, montado en eje </td>
                 </tr>
                 <tr>
-                  <th scope="row">Capacidad de Arrastre (TM)</th>
+                  <th scope="row"> Capacidad de Arrastre (TM) </th>
                   <td>13</td>
                 </tr>
                 <tr>
-                  <th scope="row">Bancos de batería</th>
-                  <td>24 celdas (48VDC) de 325Ah</td>>
+                  <th scope="row"> Bancos de batería </th>
+                  <td> 24 celdas (48VDC) de 325Ah </td>
                 </tr>
                 <tr>
                   <th scope="row">Cargador</th>
-                  <td>Automático de 48VDC 70Amp desde un suministro de 440V/60Hz trifásico</td>
-                </tr>
+                  <td> Automático de 48VDC 70Amp desde un suministro de 440V/60Hz trifásico </td>
                 </tr>
               </tbody>
             </table>
-            
         </div>
     </div>
-    
 </div>
 
 @endsection

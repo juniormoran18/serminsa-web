@@ -16,6 +16,12 @@
                 <button type="button" class="btn btn-dark btn-lg btn-block" style="height:2.6rem;">SOLICITAR COTIZACIÓN</button>
                 <h5 style="padding: 1rem 0;">4 Toneladas</h5>
                 <div class="col-md-12 espacio1"></div>
+                <div style="margin-top: 1rem;">
+                    <p align="justify">
+                        Un robusto equipo de 4 toneladas con potente motor de 20HP, permite mayor extracción a menor costo. Su diseño de motor posterior permite obtener una dstancia entre ejes reducida, haciéndola muy versátil en vetas angostas.
+
+                    </p>
+                </div>
             </div>
             <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
                 <img src="img/Locomotoras/WR20.png" class="img-thumbnail" style="max-width:75%"> 
@@ -26,7 +32,7 @@
               <thead class="thead-dark">
                 <tr>
                   <th scope="col"></th>
-                  <th colspan="3" scope="col">Caracteristicas</th>
+                  <th colspan="3" scope="col">Caracteristicas Técnicas</th>
                   
                 </tr>
               </thead>
@@ -61,7 +67,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Bancos de batería</th>
-                  <td>42 celdas (84VDC) de 455Ah</td>>
+                  <td>42 celdas (84VDC) de 455Ah</td>
                 </tr>
                 <tr>
                   <th scope="row">Cargador</th>

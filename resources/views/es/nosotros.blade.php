@@ -10,11 +10,20 @@
               <li class="active pad" style="background-color:#122087;">
                 <a class="active" href="#p-view-1" role="tab" data-toggle="tab" style="color:#F9F9F9;">¿Quiénes somos?</a>
               </li>
+              <li class="active pad" style="background-color:#122087;">
+                <a class="active"role="tab" data-toggle="tab" style="color:#F9F9F9;">|</a>
+              </li>
               <li class="pad" style="background-color:#122087;">
                 <a href="#p-view-2" role="tab" data-toggle="tab" style="color:#F9F9F9;">Historia</a>
               </li>
+              <li class="active pad" style="background-color:#122087;">
+                <a class="active"role="tab" data-toggle="tab" style="color:#F9F9F9;">|</a>
+              </li>
               <li class="pad" style="background-color:#122087;">
                 <a href="#p-view-3" role="tab" data-toggle="tab" style="color:#F9F9F9;">Visión y misión</a>
+              </li>
+              <li class="active pad" style="background-color:#122087;">
+                <a class="active"role="tab" data-toggle="tab" style="color:#F9F9F9;">|</a>
               </li>
               <li class="pad" style="background-color:#122087;">
                 <a href="#p-view-4" role="tab" data-toggle="tab" style="color:#F9F9F9;">Política de calidad</a>
@@ -28,7 +37,7 @@
                   <h4>¿Quiénes somos?</h4>
                   <div class="row">
                     <div class="col-md-7">
-                      <p>
+                      <p align="justify">
                         SERMINSA es una empresa Peruana con más de 44 años de existencia, dedicada a la fabricación y servicio de maquinarias y equipos para el transporte sobre rieles, tanto en la industria minera como de la construcción y ferrocarriles. SERMINSA es una de las principales empresas que suministran locomotoras eléctricas y vagones para el transporte de minerales, desmonte, materiales o personas, con presencia en varios países de la región - Perú, Colombia, Ecuador, Bolivia y Chile. 
                       </p>
                       <p>
@@ -46,7 +55,7 @@
               <div class="tab-inner" id="historia">
                 <div class="event-content head-team">
                   <h4>Historia</h4>
-                  <div class="row">
+                  <div class="row" align="justify">
                     <div class="col-md-7">
                       <p>
                         SERMINSA, nombre comercial y acrónimo de Servicios Mineros S.A. inició actividades en Enero de 1974 como representante en el Perú de importantes empresas fabricantes de equipos mineros de Gran Bretaña, Estados Unidos, Finlandia, etc. Luego de varios años de servicio, SERMINSA se consolida como el principal proveedor de locomotoras mineras, baterías de tracción, lámparas mineras, equipos de transporte, perforación, etc. 
@@ -59,7 +68,7 @@
                       </p>
                     </div>
                     <div class="col-md-5">
-                      <img src="img/noticias/img1.jpg" class="img-fluid rounded" alt="Responsive image">
+                      <img src="img/noticias/img2.jpg" class="img-fluid rounded" alt="Responsive image" style="padding-left: 3rem; padding-bottom: 2rem;">
                     </div>
                   </div>
                 </div>
@@ -69,7 +78,7 @@
               <div class="tab-inner">
                 <div class="event-content head-team">
                   <h4>Visión</h4>
-                  <div class="row">
+                  <div class="row" align="justify">
                     <div class="col-md-7">
                       <p>
                       Convertirnos a través de la continua mejora de nuestros procesos y servicios, en un referente en la industria de la fabricación de maquinaria y equipos, que superen las expectativas de nuestros clientes y sean reconocidos a nivel nacional e internacional.
@@ -90,7 +99,7 @@
               <div class="tab-inner">
                 <div class="event-content head-team">
                   <h4>Política de calidad</h4>
-                  <div class="row">
+                  <div class="row" align="justify">
                     <div class="col-md-7">
                       <p>
                         SERVICIOS MINEROS S.A- SERMINSA, busca ser la empresa de ingeniería de maquinarias y equipos de alcance global, siendo líderes en diseño y fabricación de equipos mineros, para lo cual nos comprometemos a:
@@ -100,7 +109,7 @@
                           Garantizar el cumplimiento de los requisitos acordados con nuestros clientes.
                         </p>
                         <p>
-                          Establecer estándares de excelencia operacional en sus productos y servicios, la cual permitan lograr la satisfacción de sus clientes, en cuanto al desempeño, duración y costo de sus equipos .
+                          Establecer estándares de excelencia operacional en sus productos y servicios, la cual permitan lograr la satisfacción de sus clientes, en cuanto al desempeño, duración y costo de sus equipos.
                         </p>
                         <p>
                           Monitorear la eficiencia de nuestros procesos de fabricación y diseño, aplicando puntos de control de calidad y analizando resultados .

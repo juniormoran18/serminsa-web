@@ -214,7 +214,7 @@
                             </div>
                             <div class="card-block p-t-2">
                                 <div class="card-header"><h4>{{ $noticia->titulo }}</h4></div>
-                                <div class="card-text" style="padding:1rem;">{{ $noticia->contenido }}</div>
+                                <div class="card-text" align="justify" style="padding:1rem;">{{ $noticia->contenido }}</div>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                             </div>
                             <div class="card-block p-t-2">
                                 <div class="card-header"><h3>{{ $noticia->titulo }}</h3></div>
-                                <div class="card-text" style="padding:1rem;">{{ $noticia->contenido }}</div>
+                                <div class="card-text" align="justify" style="padding:1rem;">{{ $noticia->contenido }}</div>
                             </div>
                         </div>
                     </div>

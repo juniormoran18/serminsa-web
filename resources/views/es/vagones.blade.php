@@ -58,13 +58,9 @@
                 <h5>CARROS U-35 / V-40</h5>
                 <a style="">Carros de volteo lateral (tolva móvil) utilizados para el acarreo a mano y con locomotora, poseen seguros de volteo de tipo manual y de pie.</a>
             </div>
-            
+
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-<<<<<<< HEAD
                 <img src="img/vagones/U35.jpg" class="img-thumbnail" style="max-width:85%">
-=======
-                <img src="img/vagones/u35.jpg" class="img-thumbnail" style="max-width:85%">
->>>>>>> e4dbbb94d0e6ed75fe699712d79bf609a1079426
             </div>
             <div>
                 <h5 style="padding-left:1rem;">CUADRO DE DIMENSIONES GENERALES PARA CARROS TIPO "U" Y "V-40"</h5>
@@ -110,7 +106,7 @@
                   <td>1250</td>
                   <td>620</td>
                   <td>500/600</td>
-                  <td>1610</td>
+                  <td>1920</td>
                     <td>810</td>
                   <td>12 pulg.</td>
                   <td>620Kg</td>
@@ -160,7 +156,7 @@
                     <th scope="row">Modelo</th>
                   <th scope="row">Capacidad (p3)</th>
                   <th scope="col">Alt/s Riel</th>
-                  <th scope="col">Dist. Ejes</th>
+                  <th scope="col">Dist. Ejes(mm)</th>
                   <th scope="col">Trocha (mm)</th>
                   <th scope="col">Long. Total</th>
                   <th scope="col">Ancho Total</th>
@@ -303,7 +299,7 @@
             <a style="">Los vagones de ciclo contínuo (Shuttlecar) son principalmente utilizados en la excavación de túneles de larga distancia y dimensiones angostas, donde su accionamiento eléctrico y traslado continuo de material de vagón a vagón permite la extracción de grandes volúmenes en corto tiempo. Serminsa fabrica estos vagones en capacidades de 11 y 14 m3 (22,000 kgs) con accionamiento eléctrico y a control remoto.</a>
         </div>
             <div class="col-md-6" style="padding-top: 0rem; padding-left:6rem;">
-                <img src="img/vagones/Shuttlecar.jpg" class="img-thumbnail" style="max-width:100%">
+                <img src="img/vagones/Shuttlercar.jpg" class="img-thumbnail" style="max-width:100%">
             </div>
     </div>
     <div class="col-md-12 espacio1"  style="margin-bottom:2rem; margin-top:4rem;"></div>

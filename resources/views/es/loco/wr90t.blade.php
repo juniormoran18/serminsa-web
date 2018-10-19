@@ -16,6 +16,11 @@
                 <button type="button" class="btn btn-dark btn-lg btn-block" style="height:2.6rem;">SOLICITAR COTIZACIÓN</button>
                 <h5 style="padding: 1rem 0;">8 / 10 Toneladas</h5>
                 <div class="col-md-12 espacio1"></div>
+                <div style="margin-top: 1rem;">
+                    <p align="justify">
+                        Equipo de alto rendimiento que ayudará a mejorar la producción de su operación. Cuenta con 02 motores de 45HP cada uno, que garantizan su potencia de trabajo.
+                    </p>
+                </div>
             </div>
             <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
                 <img src="img/Locomotoras/WR90T.png" class="img-thumbnail" style="max-width:75%"> 
@@ -26,7 +31,7 @@
               <thead class="thead-dark">
                 <tr>
                   <th scope="col"></th>
-                  <th colspan="3" scope="col">Caracteristicas</th>
+                  <th colspan="3" scope="col">Caracteristicas Técnicas</th>
                   
                 </tr>
               </thead>

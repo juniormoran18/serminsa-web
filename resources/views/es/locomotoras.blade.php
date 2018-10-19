@@ -62,7 +62,7 @@
                         </div>
                     </h5>
                     <div>
-                        <img src="img/Locomotoras/WR8-21.png" class="img-thumbnail">  
+                        <img src="img/Locomotoras/WR8.png" class="img-thumbnail">
                     </div>
                 </a>
             </div>
@@ -75,7 +75,7 @@
                         </div>
                     </h5>
                     <div>
-                        <img src="img/Locomotoras/WR91.jpg" class="img-thumbnail">  
+                        <img src="img/Locomotoras/WR9.jpg" class="img-thumbnail">
                     </div>
                 </a>
             </div>

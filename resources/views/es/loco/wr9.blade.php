@@ -16,9 +16,14 @@
                 <button type="button" class="btn btn-dark btn-lg btn-block" style="height:2.6rem;">SOLICITAR COTIZACIÓN</button>
                 <h5 style="padding: 1rem 0;">2.5 Toneladas</h5>
                 <div class="col-md-12 espacio1"></div>
+                <div style="margin-top: 1rem;">
+                    <p align="justify">
+                        Locomotora versátil, con distancia entre centros de ejes corta para sortear con facilidad las curvas dentro de la labor. Sistema de freno hidráulico par una mejor operación y fácil mantenimiento.
+                    </p>
+                </div>
             </div>
             <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
-                <img src="img/Locomotoras/WR9.png" class="img-thumbnail" style="max-width:75%"> 
+                <img src="img/Locomotoras/WR9.jpg" class="img-thumbnail" style="max-width:75%">
             </div>
         </div>
         <div style="padding-top: 2rem;">
@@ -26,7 +31,7 @@
               <thead class="thead-dark">
                 <tr>
                   <th scope="col"></th>
-                  <th colspan="3" scope="col">Caracteristicas</th>
+                  <th colspan="3" scope="col">Caracteristicas Técnicas</th>
                   
                 </tr>
               </thead>
@@ -61,7 +66,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Bancos de batería</th>
-                  <td>36 celdas (72VDC) de 325Ah</td>>
+                  <td>36 celdas (72VDC) de 325Ah</td>
                 </tr>
                 <tr>
                   <th scope="row">Cargador</th>
