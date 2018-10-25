@@ -10,8 +10,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
+<div>
+    <img src="img/logo/logo.png" width="40%" style="margin-left: auto; margin-right: auto; display: block; margin-top: 3rem">
+</div>
 
-<div class="container-fluid" style="margin-top: 100px">
+<div class="container-fluid" style="margin-top: 2rem;">
 
     @yield('content')
 </div>

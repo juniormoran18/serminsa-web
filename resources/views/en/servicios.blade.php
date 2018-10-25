@@ -18,15 +18,15 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-default">
+<nav class="navbar navbar-expand-lg navbar-default navbar-light nav_hide1">
     <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon navbar-light"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active border1">
-                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item border1">
                 <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
@@ -35,11 +35,11 @@
                 <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTS</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
                     <li class="dropdown-submenu dropright">
-                        <a class="test a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
-                        <ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
-                            <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">BATTERY</a></li>
-                            <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
-                        </ul>
+                        <a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                    <!--<ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">BATERIA</a></li>
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
+                            </ul>-->
                     </li>
                     <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
                     <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">SHOVEL</a></li>
@@ -51,24 +51,49 @@
                 <a class="nav-link a1" href="{{ route('en-contacto') }}">CONTACT</a>
             </li>
         </ul>
-        <img src="img/logo/descarga.png" style="height:0.7rem;"/> <a style="padding-left: 0.5rem" href="{{ route('es-inicio') }}">Espanish</a>
-        <ul style="margin-top:1rem;">
-            <div class="search-box">
-                <a class="search-btn dropdown">
-                    <i class="fas fa-search"></i>
-                </a>
-            </div>
+        <img src="img/logo/descarga.png" style="height:1rem;"/> <a href="{{ route('es-inicio') }}">Español</a>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-default nav_hide">
+    <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active border1">
+                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item border1">
+                <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown border1 border1">
+                <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTS</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
+                    <li class="dropdown-submenu dropright">
+                        <a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                    </li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">SHOVEL</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
+                </ul>
+            </li>
+            <li class="nav-item border1 border1">
+                <a class="nav-link a1" href="{{ route('en-contacto') }}">CONTACT</a>
+            </li>
         </ul>
+        <img src="img/logo/descarga.png" style="height:0.8rem;"/> <a href="{{ route('es-inicio') }}">Español</a>
+
     </div>
 </nav>
 <!--end of nav -->
-<div class="col-md-12 espacio">.</div>
+<div class="col-md-12 espacio"></div>
 <!--content-->
 
 
 <!-- slider -->
 
-    <div class="col-md-12 espacio">.</div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -110,202 +135,72 @@
 
 <div class="container">
     <div style="padding-top: 2rem;">
-        <h3>SERVICIOS</h3>
-        <a>SERMINSA fabrica todo tipo de carros mineros: Tipo U-35, V-40. gramby con capacidades desde 60p3 hasta 180p3, tipo Kurina y otros modelos de diseño especial. Los carros SERMINSA son de fabricaciópn robusta, respetando las especificaciones tanto en calidad de soldadura asi como calidad y espesor de acero. Asímismo, se fabrican a pedido del cliente con planchas antidesgaste, todo lo cual lleva a obtener una vida útil superior al estándar.</a>
-    </div>
-    <div>
-         <div class="row">
-            <div class="col-md-5" style="padding-top: 2rem;">
-                <h5> U-35 / V-40</h5>
-                <a style="">Los tradicionales carros mineros tipo Granby son ampliamente utilizados en operaciones mineras subterraneas donde se requiere altos volúmenes de extracción a bajo costo. Estos robustos carros están disponibles en capacidades desde 40 pies cúbicos hasta 180 pies cúbicos.</a>
-            </div>
-            <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
-                <img src="img/vagones/img2.png" class="img-thumbnail" style="max-width:55%"> 
-            </div>
-        </div>
-        <div>
-            <table class="table">
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col"></th>
-                  <th colspan="3" scope="col">Medidas de Tolva (mm)</th>
-                  <th colspan="4" scope="col">Dimensiones Principales (mm)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Capacidad</th>
-                  <td>Alt/ s Riel</td>
-                  <td>Long. Total</td>
-                  <td>Ancho Total</td>
-                  <td>Ancho Tolva</td>
-                  <td>Altura Tolva</td>
-                  <td>Peso Total/ Kg.</td>
-                  <td>Sia. Rueda</td>
-                </tr>
-                <tr>
-                  <th scope="row">U-21</th>
-                  <td>1927</td>
-                  <td>1150</td>
-                  <td>785</td>
-                  <td>1358</td>
-                  <td>833</td>
-                  <td>2401</td>
-                  <td>500/600/750</td>
-                </tr>
-                <tr>
-                  <th scope="row">U-35</th>
-                  <td>2665</td>
-                  <td>1200</td>
-                  <td>805</td>
-                  <td>1398</td>
-                  <td>1060</td>
-                  <td>3120</td>
-                  <td>500/600</td>
-                </tr>
-                <tr>
-                  <th scope="row">V40</th>
-                  <td>2700</td>
-                  <td>1345</td>
-                  <td>800</td>
-                  <td>1386</td>
-                  <td>1070</td>
-                  <td>3810</td>
-                  <td>600</td>
-                </tr>
-                </tr>
-              </tbody>
-            </table>
-            
-        </div>
+        <h3>SERVICES</h3>
+        <a>In order to provide the best technical support to our clients, SERMINSA makes available the area
+            of services, which provides technical advice and in turn offers services aimed at improving
+            productivity, such as: </a>
     </div>
     <div>
         <div class="row">
-            <div class="col-md-5" style="padding-top: 2rem;">
-                <h5> GRAMBY de 60 a 180 p3</h5>
-                <a style="">Los tradicionales carros mineros tipo Granby son ampliamente utilizados en operaciones mineras subterraneas donde se requiere altos volúmenes de extracción a bajo costo. Estos robustos carros están disponibles en capacidades desde 40 pies cúbicos hasta 180 pies cúbicos.</a>
+            <div class="col-md-7">
+                <div class="" style="padding-top: 2rem;">
+                    <h5>ASESORAMIENTO PARA EL CÁLCULO Y ADQUISICIÓN DE EQUIPOS</h5>
+                    <a style="">
+                        In order to achieve the maximum satisfaction of our customers during the
+                        purchase process, SERMINSA offers advice for the calculation of locomotive tonnage; of
+                        this way we make sure that the equipment offered meets the need of our
+                        customers.</a>
+                </div>
+                <div class="" style="padding-top: 1rem;">
+                    <h5>SERVICIO POST-VENTA</h5>
+                    <a style="">Nuestro servicio post-venta se centra en la confianza de nuestros clientes al momento de
+                        cerrar una compra, nuestros ingenieros y técnicos especializados se asegurarán de brindar el
+                        mayor soporte luego de la entrega de cada equipo, comprometiéndonos así a cumplir con nuestra
+                        garantía y garantía extendida según sea el caso.</a>
+                </div>
+                <div class="" style="padding-top: 3rem;">
+                    <h5>CONTRATOS DE ALQUILER DE LOCOMOTRAS</h5>
+                    <a style="">Ofrecemos locomotoras en alquiler bajo la modalidad de “a todo costo” es decir; mano de
+                        obra especializada y repuestos en stock cubiertos al 100% por SERMINSA; lo cual le asegura
+                        obtener una disponibilidad mecánica mayor al 90%, incrementando así su productividad.
+                    </a>
+                </div>
+                <div class="" style="padding-top: 2rem;">
+                    <h5>CAPACITACIONES TEÓRICO-PRÁCTICAS</h5>
+                    <a style="">Con la finalidad de incrementar la productividad de sus clientes basándose en la mejora
+                        de eficiencia tanto en mantenimiento como en operación de equipos, SERMINSA ofrece
+                        capacitaciones teórico-prácticas en campo y en nuestras instalaciones, las cuales serán dictadas
+                        por ingenieros y técnicos especializados en la operación y mantenimiento de equipos.
+                    </a>
+                </div>
+                <div class="" style="padding-top: 2rem;">
+                    <h5>SERVICIO DE REPARACIÓN</h5>
+                    <a style="">Encuentre en SERMINSA su mayor aliado en cuanto a reparación de equipos y componentes,
+                        nuestros técnicos especializados y nuestra experiencia adquirida como fabricantes de equipos
+                        garantizan reparaciones de calidad, ofreciendo también nuestra garantía a los productos
+                        reparados.
+                    </a>
+                </div>
+                <div class="" style="padding-top: 2rem;">
+                    <h5>REPUESTOS</h5>
+                    <a style="">Fabricamos y distribuimos una gran variedad de repuestos para nuestras líneas de
+                        producto,  - Repuestos para locomotoras a batería y trolley - Repuestos para carros mineros
+                    </a>
+                </div>
             </div>
-            <div class="col-md-7" style="padding-top: 2rem; padding-left:6rem;">
-                <img src="img/vagones/Vagon.png" class="img-thumbnail"> 
+            <div class="col-md-5">
+                <div class="" style="padding-top: 6rem; padding-left:3rem;">
+                    <img src="img/servicios/img-3.jpg" class="img" style="max-width:90%">
+                </div>
+                <div class="" style="padding-top: 6rem; padding-left:3rem;">
+                    <img src="img/servicios/img1.jpg" class="img" style="max-width:90%">
+                </div>
+                <div class="" style="padding-top: 6rem; padding-left:3rem;">
+                    <img src="img/servicios/img2.jpg" class="img" style="max-width:90%">
+                </div>
             </div>
-        </div>
-        <div style="padding-top: 2rem;">
-            <table class="table">
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col"></th>
-                  <th colspan="3" scope="col">Medidas de Tolva (mm)</th>
-                  <th colspan="4" scope="col">Dimensiones Principales (mm)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Capacidad</th>
-                  <td>Long. Int. Tolva</td>
-                  <td>Ancho int. Tolva</td>
-                  <td>Alto. Int. Tolva</td>
-                  <td>Alt. al Riel</td>
-                  <td>Dist. Ejes</td>
-                  <td>Long. Total</td>
-                  <td>Trocha (mm)</td>
-                </tr>
-                <tr>
-                  <th scope="row">60 p3</th>
-                  <td>1927</td>
-                  <td>1150</td>
-                  <td>785</td>
-                  <td>1358</td>
-                  <td>833</td>
-                  <td>2401</td>
-                  <td>500/600/750</td>
-                </tr>
-                <tr>
-                  <th scope="row">80 p3</th>
-                  <td>2665</td>
-                  <td>1200</td>
-                  <td>805</td>
-                  <td>1398</td>
-                  <td>1060</td>
-                  <td>3120</td>
-                  <td>500/600</td>
-                </tr>
-                <tr>
-                  <th scope="row">100 p3</th>
-                  <td>2700</td>
-                  <td>1345</td>
-                  <td>800</td>
-                  <td>1386</td>
-                  <td>1070</td>
-                  <td>3810</td>
-                  <td>600</td>
-                </tr>
-                <tr>
-                  <th scope="row">110 p3</th>
-                  <td>2795</td>
-                  <td>1219</td>
-                  <td>990</td>
-                  <td>1580</td>
-                  <td>1220</td>
-                  <td>3880</td>
-                  <td>600/750</td>
-                </tr>
-                <tr>
-                  <th scope="row">120 p3</th>
-                  <td>2885</td>
-                  <td>1300</td>
-                  <td>930</td>
-                  <td>1537</td>
-                  <td>1060</td>
-                  <td>3454</td>
-                  <td>600/762</td>
-                </tr>
-                <tr>
-                  <th scope="row">135 p3</th>
-                  <td>3150</td>
-                  <td>1219</td>
-                  <td>990</td>
-                  <td>1580</td>
-                  <td>1220</td>
-                  <td>3632</td>
-                  <td>600</td>
-                </tr>
-                <tr>
-                  <th scope="row">140 p3</th>
-                  <td>1927</td>
-                  <td>1150</td>
-                  <td>785</td>
-                  <td>1358</td>
-                  <td>833</td>
-                  <td>2401</td>
-                  <td>500/600/750</td>
-                </tr>
-                <tr>
-                  <th scope="row">160 p3</th>
-                  <td>1927</td>
-                  <td>1150</td>
-                  <td>785</td>
-                  <td>1358</td>
-                  <td>833</td>
-                  <td>2401</td>
-                  <td>500/600/750</td>
-                </tr>
-                <tr>
-                  <th scope="row">180 p3</th>
-                  <td>1927</td>
-                  <td>1150</td>
-                  <td>785</td>
-                  <td>1358</td>
-                  <td>833</td>
-                  <td>2401</td>
-                  <td>500/600/750</td>
-                </tr>
-                </tr>
-              </tbody>
-            </table>
-            
         </div>
     </div>
-    
 </div>
 
 

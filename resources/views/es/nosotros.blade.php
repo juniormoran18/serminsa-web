@@ -58,13 +58,13 @@
                   <div class="row" align="justify">
                     <div class="col-md-7">
                       <p>
-                        SERMINSA, nombre comercial y acrónimo de Servicios Mineros S.A. inició actividades en Enero de 1974 como representante en el Perú de importantes empresas fabricantes de equipos mineros de Gran Bretaña, Estados Unidos, Finlandia, etc. Luego de varios años de servicio, SERMINSA se consolida como el principal proveedor de locomotoras mineras, baterías de tracción, lámparas mineras, equipos de transporte, perforación, etc. 
+                        SERMINSA representa tres generaciones ligadas a la industria minera. Servicios Mineros S.A. – SERMINSA inicia actividades en 1975 como distribuidor de equipos de renombre internacional, y luego de varios años se consolida como uno de los principales fabricantes de equipos mineros en el Perú.
                       </p>
                       <p>
-                        Es así que consolida su liderazgo implementando un bien implementado taller de servicio y reparaciones de equipos mineros, que se complementa luego para iniciar el proceso de fabricación de maquinarias. En el año 2006 SERMINSA adquiere de la empresa PIKROSE LTD. de Inglaterra la ingeniería de los diseños de locomotoras BEV (British Electric Vehicles), e inicia el proceso de fabricación de toda la línea de locomotoras eléctricas que actualmente trabajan en las principales empresas mineras del Perú, y también en países de la región como Colombia, Ecuador, Bolivia y Chile. Luego esta línea de locomotoras se complementa con la línea completa de vagones (carros mineros) para completar los sistemas de extracción de minerales sobre rieles.
+                        En el año 2006 adquiere de la empresa PIKROSE LTD. de Inglaterra la ingeniería de BEV (British Electric Vehicles), e inicia el proceso de fabricación de toda la línea de locomotoras eléctricas que trabajan en las principales empresas mineras del Perú, Colombia, Ecuador, Bolivia y Chile. Luego esta línea de locomotoras se complementa con la línea completa de vagones (carros mineros) para completar los sistemas de extracción de minerales sobre rieles.
                       </p>
                       <p>
-                        En el año 2014 SERMINSA consigue la representación de la empresa EIMCO ELECON Ltd. de la India, fabricante original de la línea de Palas Neumáticas EIMCO, así como diversos equipos de carga de minerales, con lo que complementado a su línea de locomotoras y vagones, ofrece los sistemas completos de carga y transporte sobre rieles.
+                        En el año 2014 inicia la distribución de EIMCO ELECON Ltd. de la India, fabricante original de la línea de Palas Neumáticas EIMCO, así como diversos equipos de carga de minerales, con lo que complementado a la línea de locomotoras y vagones, se ofrece los sistemas completos de carga y transporte sobre rieles.
                       </p>
                     </div>
                     <div class="col-md-5">

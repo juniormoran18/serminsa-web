@@ -18,51 +18,77 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-default">
-            <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active border1">
-                        <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME<span class="sr-only">(current)</span></a>
+<nav class="navbar navbar-expand-lg navbar-default navbar-light nav_hide1">
+    <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active border1">
+                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item border1">
+                <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown border1 border1">
+                <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTS</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
+                    <li class="dropdown-submenu dropright">
+                        <a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                    <!--<ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">BATERIA</a></li>
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
+                            </ul>-->
                     </li>
-                    <li class="nav-item border1">
-                        <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
-                    </li>
-                    <li class="nav-item dropdown border1 border1">
-                        <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTOS</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
-                          <li class="dropdown-submenu dropright">
-                            <a class="test a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
-                            <ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
-                                <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">BATTERY</a></li>
-                                <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
-                            </ul>
-                          </li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">PALLAS</a></li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('en-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
-                          <li><a class="a1" tabindex="-1" href="{{ route('en-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item border1 border1">
-                        <a class="nav-link a1" href="{{ route('es-contacto') }}">CONTACT</a>
-                    </li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">SHOVEL</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
                 </ul>
-                <img src="img/logo/english.png" style="height:1rem;"/> <a href="{{ route('es-inicio') }}">Espanish</a>
-                <ul style="margin-top:1rem;">
-                    <div class="search-box">
-                        <a class="search-btn dropdown">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </div>
+            </li>
+            <li class="nav-item border1 border1">
+                <a class="nav-link a1" href="{{ route('en-contacto') }}">CONTACT</a>
+            </li>
+        </ul>
+        <img src="img/logo/descarga.png" style="height:1rem;"/> <a href="{{ route('es-inicio') }}">Español</a>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-default nav_hide">
+    <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active border1">
+                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item border1">
+                <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown border1 border1">
+                <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTS</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
+                    <li class="dropdown-submenu dropright">
+                        <a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                    </li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">SHOVEL</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
                 </ul>
-            </div>
-        </nav>
+            </li>
+            <li class="nav-item border1 border1">
+                <a class="nav-link a1" href="{{ route('en-contacto') }}">CONTACT</a>
+            </li>
+        </ul>
+        <img src="img/logo/descarga.png" style="height:0.8rem;"/> <a href="{{ route('es-inicio') }}">Español</a>
+
+    </div>
+</nav>
 <!--end of nav -->        
-         <div class="col-md-12 espacio">.</div>
+         <div class="col-md-12 espacio"></div>
 <!--content-->
          @yield('content')
         

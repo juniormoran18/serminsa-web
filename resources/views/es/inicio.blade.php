@@ -79,120 +79,11 @@
     <div class="col-md-12 espacio"></div>
 
     <!-- Noticias -->
-    <div class="container general">
+    <div class="container general"></div>
 
 
-    </div>
-
-    <!-- Noticias -->
-
-    <!--
-        <section class="carousel slide general3" data-ride="carousel" id="postsCarousel">
-            <div class="container p-t-0 m-t-2 carousel-inner">
-                <div class="row row-equal carousel-item active m-t-0">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                            </div>
-                            <div class="card-block p-t-2">
-                                <div class="card-header"><h3>Noticia 1</h3></div>
-                                <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non
-                                    reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et!
-                                    Ipsa, maiores, ratione.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                            </div>
-                            <div class="card-block p-t-2">
-                                <div class="card-header"><h3>Noticia 1</h3></div>
-                                <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non
-                                    reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et!
-                                    Ipsa, maiores, ratione.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                            </div>
-                            <div class="card-block p-t-2">
-                                <div class="card-header"><h3>Noticia 1</h3></div>
-                                <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non
-                                    reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et!
-                                    Ipsa, maiores, ratione.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row-equal carousel-item m-t-0">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                            </div>
-                            <div class="card-block p-t-2">
-                                <div class="card-header"><h3>Noticia 1</h3></div>
-                                <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non
-                                    reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et!
-                                    Ipsa, maiores, ratione.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                            </div>
-                            <div class="card-block p-t-2">
-                                <div class="card-header"><h3>Noticia 1</h3></div>
-                                <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non
-                                    reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et!
-                                    Ipsa, maiores, ratione.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                            </div>
-                            <div class="card-block p-t-2">
-                                <div class="card-header"><h3>Noticia 1</h3></div>
-                                <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non
-                                    reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et!
-                                    Ipsa, maiores, ratione.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-    <!-- Fin de la noticias -->
-
-
-    <section class="carousel slide general3" data-ride="carousel" id="postsCarousel">
-        <div class="container">
+    <section class="carousel slide general3 small_hidden" data-ride="carousel" id="postsCarousel">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-10 margin-title"><h2>NOTICIAS</h2></div>
                 <div class="col-2 text-right mb-4">
@@ -239,6 +130,56 @@
         </div>
     </section>
 
+    <section class="carousel slide general3 large_hidden" data-ride="carousel" id="postsCarousel">
+        <div class="container ">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-10 col-xs-8 margin-title"><h2>NOTICIAS</h2></div>
+                <div class="col-md-2 col-xs-4 text-right mb-4 small_hidden">
+                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i
+                                class="fa fa-lg fa-chevron-left"></i></a>
+                    <a class="btn btn-outline-secondary next" href="" title="more"><i
+                                class="fa fa-lg fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-t-0 m-t-2 carousel-inner">
+            <!--Primera lista de noticias -->
+            <div class="row row-equal carousel-item active m-t-0">
+                @foreach($terceranoticias as $noticia)
+                    <div class="col-md-12" style="height: 50rem;">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250" style="min-height:250px;">
+                                <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h4>{{ $noticia->titulo }}</h4></div>
+                                <div class="card-text" align="justify" style="padding:1rem;">{{ $noticia->contenido }}</div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            <!--Segunda lista de noticias
+            <div class="row row-equal carousel-item m-t-0">
+                @foreach($segundasNoticias as $noticia)
+                    <div class="col-md-12"  style="height: 50rem;">
+                        <div class="card">
+                            <div class="card-img-top card-img-top-250" style="min-height:250px;">
+                                <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
+                            </div>
+                            <div class="card-block p-t-2">
+                                <div class="card-header"><h3>{{ $noticia->titulo }}</h3></div>
+                                <div class="card-text" align="justify" style="padding:1rem;">{{ $noticia->contenido }}</div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            -->
+        </div>
+    </section>
+
 
     <div class="col-md-12" style="padding-left:4rem; border-top-width:2px">
         <div class="col-md-4"><h5>Nuestros Clientes</h5></div>
@@ -248,7 +189,7 @@
     <div class="col-md-12 espacio1"></div>
 
     <div class="container mt-5">
-        <div class="row">
+        <div class="row small_modify">
             <div class="owl-carousel owl-theme">
                 <div class="item2"><img src="img/logos/1.jpg" class="img-thumbnail" style="max-width:65%"></div>
                 <div class="item2"><img src="img/logos/2.jpg" class="img-thumbnail" style="max-width:65%"></div>

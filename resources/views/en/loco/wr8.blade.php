@@ -1,4 +1,4 @@
-@extends ('page.principal')
+@extends ('page.principal-en')
 
 @section('content')
 

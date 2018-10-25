@@ -20,10 +20,10 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-default">
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light nav_hide1">
             <a class="navbar-brand" href="{{ route('es-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon navbar-light"></span>
              </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -37,11 +37,11 @@
                         <a class="nav-link dropdown-toggle a1" href="{{ route('es-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTOS</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
                           <li class="dropdown-submenu dropright">
-                            <a class="test a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTORAS</a>
-                            <ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
+                            <a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTORAS</a>
+                            <!--<ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
                                 <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">BATERIA</a></li>
                                 <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
-                            </ul>
+                            </ul>-->
                           </li>
                           <li><a class="a1" tabindex="-1" href="{{ route('es-vagones') }}" style="padding-left:6px;">VAGONES</a></li>
                           <li><a class="a1" tabindex="-1" href="{{ route('es-palas') }}" style="padding-left:6px;">PALAS</a></li>
@@ -63,6 +63,49 @@
                 </ul>-->
             </div>
         </nav>
+    <nav class="navbar navbar-expand-lg navbar-default  nav_hide">
+        <a class="navbar-brand" href="{{ route('es-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navbar-light"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active border1">
+                    <a class="nav-link a1" href="{{ route('es-inicio') }}" style="margin-right:8px; margin-left:8px;">INICIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item border1">
+                    <a class="nav-link a1" href="{{ route('es-nosotros') }}" >NOSOTROS</a>
+                </li>
+                <li class="nav-item dropdown border1 border1">
+                    <a class="nav-link dropdown-toggle a1" href="{{ route('es-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTOS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
+                        <li class="dropdown-submenu dropright">
+                            <a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTORAS</a>
+                        <!--<ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">BATERIA</a></li>
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
+                            </ul>-->
+                        </li>
+                        <li><a class="a1" tabindex="-1" href="{{ route('es-vagones') }}" style="padding-left:6px;">VAGONES</a></li>
+                        <li><a class="a1" tabindex="-1" href="{{ route('es-palas') }}" style="padding-left:6px;">PALAS</a></li>
+                        <li><a class="a1" tabindex="-1" href="{{ route('es-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
+                        <li><a class="a1" tabindex="-1" href="{{ route('es-servicios') }}" style="padding-left:6px;">SERVICIOS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item border1 border1">
+                    <a class="nav-link a1" href="{{ route('es-contacto') }}">CONTACTO</a>
+                </li>
+            </ul>
+            <img src="img/logo/english.png" style="height:1rem;"/> <a href="{{ route('en-inicio') }}">English</a>
+            <!--<ul style="margin-top:1rem;">
+                <div class="search-box">
+                    <a class="search-btn dropdown">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </ul>-->
+        </div>
+    </nav>
 <!--end of nav -->        
          <div class="col-md-12 espacio"></div>
 <!--content-->
@@ -158,7 +201,7 @@
                                             <p><b>Teléfonos:</b>
         
                                             <b style="color:#ffc106;">(9am a 6pm):</b>  <p>01 713 4228 / 01 7134225</p>
-                                            <p><b>WhatsApp:</b> <a href="">989 167 440</a></p>
+                                            <p><i class="fab fa-whatsapp-square fa-2x"></i> <a style="padding-left: 1rem;">989 167 440</a></p>
                                         </div>
         
                                         
@@ -166,9 +209,9 @@
                                         
                                         	<ul class="nomargin">
                                             
-                        <a href="https://www.facebook.com/bootsnipp"><i class="fab fa-facebook-square fa-3x" id="social"></i></a>
-        	             <a href="https://twitter.com/bootsnipp"><i class="fab fa-youtube-square fa-3x social-tw" id="social"></i></a>
-        	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fab fa-linkedin fa-3x social-gp" id="social"></i></a>
+                        <a href="https://www.facebook.com/pg/Serminsa-Oficial-2207308156147993/about/?ref=page_internal"><i class="fab fa-facebook-square fa-3x" id="social"></i></a>
+        	             <a href="https://www.youtube.com/channel/UChNepOOwLW_8WzP8sa5egsw?view_as=subscriber"><i class="fab fa-youtube-square fa-3x social-tw" id="social"></i></a>
+        	            <a href="https://www.linkedin.com/company/servicios-mineros-s-a/"><i class="fab fa-linkedin fa-3x social-gp" id="social"></i></a>
         	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
                                             
                                             </ul>

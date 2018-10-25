@@ -49,21 +49,21 @@
         <h3>METALMECANICA</h3>
     </div>
     <div class="row">
-        <div class="col-md-6" style="padding-top: 2rem;">
+        <div class="col-md-6" style="padding-top: 2rem;" align="justify">
         <a>Con la finalidad de brindarle nuevas soluciones a la necesidad de sus clientes, SERMINSA pone a disposición su área de METAL MECÁNICA, la cual ha sido creada para brindarle los siguientes productos:</a>
             <div>
-                <div>
+                <div style="padding: 2rem;">
                     <p>1.	Diseño y fabricación de estructuras:</p>
-                    <a>
+                    <p>
                         •	Nos especializamos en el desarrollo y fabricación de estructuras metálicas, tanques reservorios, escaleras metálicas, racks de equipos y proyectos de acuerdo a las necesidades del cliente.
-                    </a>
+                    </p>
                 </div>
-                <div>
+                <div style="padding: 2rem;">
                     <p>2.	Servicios de soldadura (GMAW-FCAW-SMAW):</p>
-                    <a style="padding: 2rem;">•	Contamos con soldadores homologados e inspectores de soldadura, ofreciendo así la mejor calidad en servicios de soldadura y recuperación de piezas a través de los procesos de soldadura MIG, Eléctrica y Autógena.
-                    </a>
+                    <p>•	Contamos con soldadores homologados e inspectores de soldadura, ofreciendo así la mejor calidad en servicios de soldadura y recuperación de piezas a través de los procesos de soldadura MIG, Eléctrica y Autógena.
+                    </p>
                 </div>
-                <div>
+                <div style="padding: 2rem;">
                     <p>3.	Mecanizado de piezas (Tornos verticales, fresadoras)</p>
                     <p>
                         •	Contamos con maquinaria, equipamiento y profesionales altamente calificados para atender sus necesidades de maestranza, tales como: Maquinado de piezas en tornos convencionales, fresadoras y taladros.

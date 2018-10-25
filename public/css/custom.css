@@ -376,6 +376,10 @@ body {
     height: auto;
 }
 
+.icon-bar {
+    background-color: black ;
+}
+
 #btnref:hover {
     opacity: 0.5;
 }
@@ -390,6 +394,40 @@ body {
 }
 #btnref5:hover {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 400px) {
+    .small_hidden {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .small_modify {
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbar-default {
+        height: auto;
+
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .large_hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav_hide {
+        display: none;
+    }
+}
+@media screen and (min-width: 400px) {
+    .nav_hide1 {
+        display: none;
+    }
 }
 
 

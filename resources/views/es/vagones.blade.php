@@ -44,8 +44,8 @@
 <div class="container">
     <div style="padding-top: 1em;">
         <div class="row" style="padding:2em 0 0;">
-                <div class="col-md-9"><h2>VAGONES</h2></div>
-                <div  class="col-md-1"><a href="#U-35"><h5>U-35 / V-40</h5></a></div>
+                <div class="col-md-8"><h2>VAGONES</h2></div>
+                <div  class="col-md-1.5"><a href="#U-35"><h5>U-35 / V-40</h5></a></div>
                 <div  class="col-md-1"><a href="#gramby"><h5>Gramby</h5></a></div>
                 <div  class="col-md-1"><a href="#otros"><h5>Otros</h5></a></div>
             </div>

@@ -20,15 +20,15 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-default">
+<nav class="navbar navbar-expand-lg navbar-default navbar-light nav_hide1">
     <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon navbar-light"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active border1">
-                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item border1">
                 <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
@@ -37,11 +37,11 @@
                 <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTS</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
                     <li class="dropdown-submenu dropright">
-                        <a class="test a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
-                        <ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
-                            <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">BATTERY</a></li>
-                            <li><a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
-                        </ul>
+                        <a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                    <!--<ul class="dropdown-menu" style="background:rgba(249,249,249,0.8);">
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">BATERIA</a></li>
+                                <li><a class="a1" tabindex="-1" href="{{ route('es-locomotoras') }}" style="padding-left:6px;">TROLLEY</a></li>
+                            </ul>-->
                     </li>
                     <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
                     <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">SHOVEL</a></li>
@@ -53,18 +53,45 @@
                 <a class="nav-link a1" href="{{ route('en-contacto') }}">CONTACT</a>
             </li>
         </ul>
-        <img src="img/logo/descarga.png" style="height:0.7rem;"/> <a style="padding-left: 0.5rem" href="{{ route('es-inicio') }}">Espanish</a>
-        <ul style="margin-top:1rem;">
-            <div class="search-box">
-                <a class="search-btn dropdown">
-                    <i class="fas fa-search"></i>
-                </a>
-            </div>
-        </ul>
+        <img src="img/logo/descarga.png" style="height:1rem;"/> <a href="{{ route('es-inicio') }}">Español</a>
     </div>
 </nav>
+<nav class="navbar navbar-expand-lg navbar-default nav_hide">
+    <a class="navbar-brand" href="{{ route('en-inicio') }}" style="max-width: 20%; background: radial-gradient(#FFFFFF, #DADADA);"><img src="img/logo/logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active border1">
+                <a class="nav-link a1" href="{{ route('en-inicio') }}" style="margin-right:8px; margin-left:8px;">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item border1">
+                <a class="nav-link a1" href="{{ route('en-nosotros') }}" >ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown border1 border1">
+                <a class="nav-link dropdown-toggle a1" href="{{ route('en-productos') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">PRODUCTS</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:rgba(249,249,249,0.8);">
+                    <li class="dropdown-submenu dropright">
+                        <a class="a1" tabindex="-1" href="{{ route('en-locomotoras') }}" style="padding-left:6px;">LOCOMOTIVES</a>
+                    </li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-vagones') }}" style="padding-left:6px;">WAGONS</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-palas') }}" style="padding-left:6px;">SHOVEL</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-metalmecanica') }}" style="padding-left:6px;">METALMECANICA</a></li>
+                    <li><a class="a1" tabindex="-1" href="{{ route('en-servicios') }}" style="padding-left:6px;">SERVICES</a></li>
+                </ul>
+            </li>
+            <li class="nav-item border1 border1">
+                <a class="nav-link a1" href="{{ route('en-contacto') }}">CONTACT</a>
+            </li>
+        </ul>
+        <img src="img/logo/descarga.png" style="height:0.8rem;"/> <a href="{{ route('es-inicio') }}">Español</a>
+
+    </div>
+</nav>
+
 <!--end of nav -->
-<div class="col-md-12 espacio">.</div>
+<div class="col-md-12 espacio"></div>
 <!--content-->
 <!-- slider -->
 
@@ -149,96 +176,55 @@
     </div>
 
     <!-- Noticias -->    
-    <div class="container general">
-        
-        
+    <div class="container general"></div>
+
+<section class="carousel slide general3 small_hidden" data-ride="carousel" id="postsCarousel">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-10 margin-title"><h2>NOTICIAS</h2></div>
+            <div class="col-2 text-right mb-4">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i
+                            class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i
+                            class="fa fa-lg fa-chevron-right"></i></a>
+            </div>
+        </div>
     </div>
 
-    <section class="carousel slide general3" data-ride="carousel" id="postsCarousel">
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-md-10 margin-title" ><h1>NEWS</h1></div>
-                <div class="col-2 text-right mb-4">
-                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                    <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            @foreach($noticiasingles as $noticia)
+                <div class="col-md-4" style="height: 50rem;">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250" style="min-height:250px;">
+                            <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <div class="card-header"><h4>{{ $noticia->titulo }}</h4></div>
+                            <div class="card-text" align="justify" style="padding:1rem;">{{ $noticia->contenido }}</div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            @endforeach
         </div>
-        <div class="container p-t-0 m-t-2 carousel-inner">
-            <div class="row row-equal carousel-item active m-t-0">
-                <div class="col-md-4">
+        <!--Segunda lista de noticias -->
+        <div class="row row-equal carousel-item m-t-0">
+            @foreach($noticiasingles1 as $noticia)
+                <div class="col-md-4"  style="height: 50rem;">
                     <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
+                        <div class="card-img-top card-img-top-250" style="min-height:250px;">
+                            <img class="img-fluid" src="{{$noticia->imagen}}" alt="Carousel 1">
                         </div>
                         <div class="card-block p-t-2">
-                            <div class="card-header"><h3>Noticia 1</h3></div>
-                            <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+                            <div class="card-header"><h3>{{ $noticia->titulo }}</h3></div>
+                            <div class="card-text" align="justify" style="padding:1rem;">{{ $noticia->contenido }}</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <div class="card-header"><h3>Noticia 1</h3></div>
-                            <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <div class="card-header"><h3>Noticia 1</h3></div>
-                            <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="row row-equal carousel-item m-t-0">
-                                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <div class="card-header"><h3>Noticia 1</h3></div>
-                            <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <div class="card-header"><h3>Noticia 1</h3></div>
-                            <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="img/noticias/img1.jpg" alt="Carousel 1">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <div class="card-header"><h3>Noticia 1</h3></div>
-                            <div class="card-text" style="padding:1rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
-    </section>
+    </div>
+</section>
     
     
 <!-- Fin de la noticias -->
