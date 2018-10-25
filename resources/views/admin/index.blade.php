@@ -5,7 +5,7 @@
             <div class="col-md-10 col-md-offset-1" style="padding: 2rem; padding-left: 2rem;">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <div class="pull-left"><h3>Noticias en Español</h3></div>
+                        <div class="pull-left"><h3>Noticias</h3></div>
                         <div class="table-container">
                             <table id="mytable" class="table table-bordred table-striped">
                                 <tr>
